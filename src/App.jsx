@@ -20,6 +20,16 @@ function App() {
               </>
             }
           />
+          <Route
+            path="/carspray/"
+            element={
+              <>
+                <Specialists />
+                <AboutUS />
+                <App_footer />
+              </>
+            }
+          />
         </Routes>
       </div>
     </Router>
